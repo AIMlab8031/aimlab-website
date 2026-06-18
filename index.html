@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIM Lab | Multi-Industry Distribution</title>
+  <meta name="description" content="AIM Lab | Industrial automation, solar PV, barcode/RFID, printing & labeling distributor. Tele Haase relays, SolOcean solar, Zebra hardware. Cape Town, South Africa. Nationwide & Africa service."/>
+  <meta name="keywords" content="industrial automation distributor South Africa, Tele Haase relays Cape Town, Zebra barcode scanner distributor, floating solar PV South Africa, RFID labels printing, SolOcean distributor, barcode equipment SA, automation relays, printing services Cape Town, distribution South Africa"/>
+  <meta name="geo.placename" content="Cape Town, South Africa"/>
+  <meta name="geo.region" content="ZA"/>
+  <title>AIM Lab | Industrial Automation, Solar PV & Zebra Distributor South Africa</title>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -447,6 +451,40 @@
     }
     .cat-head p { font-size: 0.9rem; color: var(--muted); font-weight: 300; max-width: 600px; }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "AIM Lab",
+    "image": "https://aimlab.co.za/logo.png",
+    "description": "Industrial automation, solar PV, barcode/RFID, printing & labeling distributor. Tele Haase, SolOcean, Zebra distributor.",
+    "telephone": "+27 82 319 1044",
+    "email": "info@aimlab.co.za",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5 Meerlust",
+      "addressLocality": "Eversdal",
+      "addressRegion": "Western Cape",
+      "postalCode": "7550",
+      "addressCountry": "ZA"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      {
+        "@type": "Continent",
+        "name": "Africa"
+      }
+    ],
+    "priceRange": "$$",
+    "url": "https://aimlab.co.za",
+    "sameAs": [],
+    "serviceType": ["Industrial Automation", "Solar Distribution", "Barcode & RFID", "Printing Services"],
+    "knowsAbout": ["Tele Haase", "SolOcean", "Zebra Technologies", "RFID", "Automation"]
+  }
+  </script>
 </head>
 <body>
 
@@ -1376,11 +1414,13 @@
         <p>Whether you're sourcing products, need a printing quote, or want to explore a partnership — reach out and we'll respond promptly.</p>
         <div class="contact-detail"><span class="label">EMAIL</span><span>info@aimlab.co.za</span></div>
         <div class="contact-detail"><span class="label">PHONE</span><span>+27 82 319 1044</span></div>
-        <div class="contact-detail"><span class="label">HOURS</span><span>Mon – Fri, 08:00 – 17:00</span></div>
+        <div class="contact-detail"><span class="label">ADDRESS</span><span>5 Meerlust, Eversdal, Cape Town 7550, South Africa</span></div>
+        <div class="contact-detail"><span class="label">SERVICE</span><span>Nationwide South Africa & Africa</span></div>
+        <div class="contact-detail"><span class="label">HOURS</span><span>Mon – Fri, 08:00 – 17:00 SAST</span></div>
       </div>
 
       <div class="fade-in">
-        <form class="contact-form" action="https://formspree.io/f/mkoalnbd" method="POST">
+        <form class="contact-form" action="https://formspree.io/f/mkoalnbd" method="POST" onsubmit="handleFormSubmit(event)">
           <div class="form-row">
             <div class="form-group"><label for="fname">First Name</label><input type="text" id="fname" name="fname" placeholder="Jane" required/></div>
             <div class="form-group"><label for="lname">Last Name</label><input type="text" id="lname" name="lname" placeholder="Smith"/></div>
@@ -1407,7 +1447,52 @@
   </section>
 </div>
 
-<!-- ═══════════ FOOTER ═══════════ -->
+<!-- ═══════════ THANK YOU PAGE ═══════════ -->
+<div class="page" id="page-thankyou">
+  <section style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 60px 6%;">
+    <div style="max-width: 600px; text-align: center; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 50px 40px; animation: slideIn 0.6s ease-out;">
+      <div style="width: 80px; height: 80px; margin: 0 auto 30px; background: rgba(217,168,168,0.15); border: 2px solid var(--green); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 40px; color: var(--green); animation: popIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);">✓</div>
+      
+      <h1 style="font-family: 'Barlow Condensed', sans-serif; font-size: 2.5rem; font-weight: 900; text-transform: uppercase; margin-bottom: 10px; letter-spacing: -0.01em; line-height: 1.1;">Thank You for Your <span class="accent-green">Inquiry</span></h1>
+      <p style="font-size: 1.1rem; color: var(--muted); font-weight: 300; margin-bottom: 30px;">We've received your quote request and will be in touch shortly.</p>
+
+      <div style="background: rgba(139,79,79,0.06); border: 1px solid var(--border); border-radius: var(--radius); padding: 25px; margin-bottom: 30px; text-align: left;">
+        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px;">
+          <div style="font-size: 1.5rem; color: var(--green); flex-shrink: 0; margin-top: 2px;">⏱</div>
+          <div>
+            <h3 style="font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 4px;">Response Time</h3>
+            <p style="font-size: 0.9rem; color: var(--text); margin: 0;">We respond within 1 business day with product details, pricing, and next steps.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px;">
+          <div style="font-size: 1.5rem; color: var(--green); flex-shrink: 0; margin-top: 2px;">📧</div>
+          <div>
+            <h3 style="font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 4px;">Check Your Email</h3>
+            <p style="font-size: 0.9rem; color: var(--text); margin: 0;">Look for our reply at the email address you provided. Check spam folder just in case.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 15px;">
+          <div style="font-size: 1.5rem; color: var(--green); flex-shrink: 0; margin-top: 2px;">💬</div>
+          <div>
+            <h3 style="font-family: 'Barlow Condensed', sans-serif; font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 4px;">Questions?</h3>
+            <p style="font-size: 0.9rem; color: var(--text); margin: 0;">Call us anytime: <strong>+27 82 319 1044</strong> or email <strong>info@aimlab.co.za</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-bottom: 20px;">
+        <a href="javascript:goTo('home')" class="btn-primary" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 12px 28px; border-radius: var(--radius); text-decoration: none; cursor: pointer; border: none; transition: all 0.2s; display: inline-block; background: linear-gradient(135deg, #6B3535, var(--blue)); color: #fff;">Back to Home</a>
+        <a href="javascript:goTo('contact')" class="btn-secondary" style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 12px 28px; border-radius: var(--radius); text-decoration: none; cursor: pointer; background: transparent; color: var(--text); border: 1px solid var(--border); transition: all 0.2s; display: inline-block;">Contact Again</a>
+      </div>
+
+      <div style="font-size: 0.85rem; color: var(--dim); margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+        In the meantime, explore our product lines or contact us with any questions.
+      </div>
+    </div>
+  </section>
+</div>
 <footer>
   <div class="footer-logo"><img src="data:image/jpeg;base64,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" alt="AIM Lab"/>AIM<span>Lab</span></div>
   <div class="footer-copy">© 2026 AIM Lab. All rights reserved. Product names and trademarks belong to their respective owners.</div>
@@ -1437,6 +1522,15 @@
 
   function toggleNav() {
     document.getElementById('navLinks').classList.toggle('open');
+  }
+
+  // ── Handle form submission and show thank you page ──
+  function handleFormSubmit(event) {
+    // Allow form to submit to Formspree
+    // Show thank you page after a brief delay
+    setTimeout(() => {
+      goTo('thankyou');
+    }, 500);
   }
 
   // ── Pre-fill quote form from product CTA ──
